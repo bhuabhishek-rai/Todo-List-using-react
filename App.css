@@ -1,0 +1,73 @@
+.container
+{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 25px;
+  position: relative;
+}
+ 
+.container_model
+{
+  width: 400px !important;
+  height: auto !important;
+  background-color: rgb(255, 255, 255);
+  position: relative !important;
+  margin-left: 20%;
+}
+ 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+ 
+.btn_area
+{
+  border: none;
+  border-radius: 13px;
+  padding: 18px 138px;
+  font-weight: 600;
+}
+ 
+.space_betwwn
+{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+ 
+#dropdown-basic
+{
+  background-color: #DDDDDD !important;
+    border: none !important;
+}
+ 
+.list-container {
+  max-height: calc(100vh - 570px); /* Adjust the height as needed based on your layout */
+  overflow-y: auto;
+}
+ 
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c6c6c600;
+  border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c6c6c600;
+}

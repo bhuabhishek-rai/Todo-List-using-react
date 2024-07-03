@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* max-height: calc(100vh - 0px); */
+  }
+  #A100{
+    background-color:darkgray ;
+    cursor:pointer;
+    color:Black;
+    font-size: 20px;
+    font-weight: 800;
+
+  }
+  #A104{
+    background-color:darkgrey;
+    height:30px;
+    width:70px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 30px;
+    border:2px solid black;
+    cursor: pointer;
+
+
+  }
+  #A103{
+    background-color: darkgrey;
+    height:30px;
+    width:180px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 20px;
+    border-radius: 30px;
+    border:2px solid black;
+    cursor: pointer;
+    
+
+  }
+  #A105{
+    color:red;
+    font-size: 18px;
+    
+    font-weight: 600;
+  }
+
+  .button{
+    height:10%;
+    width:80%;
+    margin-top: 10px;
+    margin-left: 40%;
+    
+  }
+   
+  .list-container {
+    margin-top: 20px;
+    flex: 1 1;
+    overflow-y: auto;
+    border-radius: 10px;
+  }
+   
+  .btn-container {
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+   
+  .reset_container
+  {
+    display: flex;justify-content: space-between;
+  }
+ 
+  #contained-modal-title-vcenter
+  {
+    font-weight: 900 !important;
+    font-size: 25px;
+    margin-left: 60%;
+  }
+  .contained-modal-title-vcenter2
+  {
+    font-weight: 700 !important;
+    font-size: 30px;
+    text-decoration: underline;
+    color:red
+  }
